@@ -82,6 +82,7 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
 }
 .item-features,
 .item-skills,
@@ -137,7 +138,7 @@ body {
 /* styles for portfolio */
 /* filters buttons */
 .filter-btn:hover {
-  background-color: #404bbf;
+  background-color: var(#404bbf;) 
   cursor: pointer;
   color: #FFFFFF;
 
@@ -157,30 +158,35 @@ body {
   height: 48px;
   background: #f4f4fd;
   color: #4D5AE5;
+  cursor: pointer;
 }
 .filter-btn-2 {
   width: 116px;
   height: 48px;
   background: #f4f4fd;
   color: #4D5AE5;
+  cursor: pointer;
 }
 .filter-btn-3 {
   width: 78px;
   height: 48px;
   background: #f4f4fd;
   color: #4D5AE5;
+  cursor: pointer;
 }
 .filter-btn-4 {
   width: 101px;
   height: 48px;
   background: #f4f4fd;
   color: #4D5AE5;
+  cursor: pointer;
 }
 .filter-btn-5 {
   width: 126px;
   height: 48px;
   background: #f4f4fd;
   color: #4D5AE5;
+  cursor: pointer;
 }
 /* list cards */
 .card-item {
