@@ -5,13 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio (Version 3.0)</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"/>
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <!-- Main menu -->
     <header>
       <nav>
-        <a href="./index.html"><span class="logo-color">Web</span>Studio</a>
+        <a class="logo-text" href="./index.html"><span class="logo-color">Web</span>Studio</a>
         <ul class="nav-list">
           <li><a class="nav-link" href="./index.html">Studio</a></li>
           <li><a class="nav-link current" href="./portfolio.html">Portfolio</a></li>
@@ -21,8 +26,8 @@
       <!-- Address Block -->
       <address>
         <ul class="address-list">
-          <li><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com </a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li><a class="address-list-item" href="mailto:info@devstudio.com">info@devstudio.com </a></li>
+          <li><a class="address-list-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
@@ -33,11 +38,11 @@
         <h1 class="visually-hidden"></h1>
         <!-- List filters buttons -->
         <ul class="filters-list">
-            <li class="filter-item"><button class="filter-btn-1" type="button">All</button></li> 
-            <li class="filter-item"><button class="filter-btn-2" type="button">Web Site</button></li> 
-            <li class="filter-item"><button class="filter-btn-3" type="button">App</button></li> 
-            <li class="filter-item"><button class="filter-btn-4" type="button">Design</button></li> 
-            <li class="filter-item"><button class="filter-btn-5" type="button">Marketing</button></li> 
+            <li><button class="filter-btn" type="button">All</button></li> 
+            <li><button class="filter-btn" type="button">Web Site</button></li> 
+            <li><button class="filter-btn" type="button">App</button></li> 
+            <li><button class="filter-btn" type="button">Design</button></li> 
+            <li><button class="filter-btn" type="button">Marketing</button></li> 
 
         </ul>
         <!-- list cards -->
@@ -137,7 +142,7 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <a class="logo-text" href="./index.html"><span class="logo-color">Web</span>Studio</a>
+      <a class="footer-logo-text" href="./index.html"><span class="logo-color">Web</span>Studio</a>
       <p class="text-footer">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
