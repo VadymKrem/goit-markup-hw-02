@@ -53,7 +53,9 @@ body {
   color: var(--color-nav);
 }
 /* address list */
-
+.address-list {
+  list-style-type: none;
+}
 .address-list-item {
   text-decoration: none;
   color: var(--hover-focus-color-nav);
@@ -154,7 +156,7 @@ body {
 /* styles for portfolio */
 /* filters buttons */
 .filter-btn:hover {
-  background-color: #404bbf;
+  background-color: var(--color-address);
   color: var(--color-background);
 }
 .filter-btn {
@@ -165,6 +167,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-change-logo);
   cursor: pointer;
+  background-color: var(--color-btn);
 }
 .filters-list {
   list-style-type: none;
