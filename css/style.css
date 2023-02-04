@@ -14,7 +14,9 @@ body {
 .nav-link:hover {
   color: var(--color-address);
 }
-
+.nav-link:focus {
+  color: var(--color-address);
+}
 .nav-link.current {
   color: var(--color-address);
 }
@@ -69,7 +71,9 @@ body {
 .address-list-item:hover {
   color: var(--color-address);
 }
-
+.address-list-item:focus {
+  color: var(--color-address);
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -98,6 +102,9 @@ body {
   color: var(--color-background);
 }
 .btn:hover {
+  background: var(--color-address);
+}
+.btn:focus {
   background: var(--color-address);
 }
 .btn {
@@ -156,6 +163,10 @@ body {
 /* styles for portfolio */
 /* filters buttons */
 .filter-btn:hover {
+  background-color: var(--color-address);
+  color: var(--color-background);
+}
+.filter-btn:focus {
   background-color: var(--color-address);
   color: var(--color-background);
 }
